@@ -154,7 +154,7 @@ fun Application.module() {
                             graphData = null
                         ))
                     } catch (e: Exception) {
-                        logger.error("Analysis error: ${e.message}", e)
+                        logger.error("Analysis error ${e.message}", e)
                         call.respond(HttpStatusCode.InternalServerError, AnalyzeResponse(
                             error = "Analysis error: ${e.message}"
                         ))
