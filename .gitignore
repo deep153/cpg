@@ -1,0 +1,77 @@
+# Gradle
+.gradle/
+build/
+out/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+.gradle-cache/
+
+# Kotlin
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# Logs
+logs/
+*.log
+log/
+
+# Local configuration
+*.env
+.env.*
+application-local.properties
+application-local.yml
+
+# Neo4j
+data/neo4j/
+neo4j-data/
+
+# Project specific
+bin/
+target/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.npm
+.yarn 
